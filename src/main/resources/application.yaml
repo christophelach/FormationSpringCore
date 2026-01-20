@@ -1,3 +1,7 @@
 spring:
   application:
     name: petclinic
+  logging:
+    level:
+      root: ERROR
+      com.petclinic.petclinic: INFO
